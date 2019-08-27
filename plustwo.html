@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NIST College.edu.np</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+  <link href="https://unpkg.com/vuetify/dist/vuetify.min.css" rel="stylesheet">
+  <link href="my.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+ <div id="app">
+   <v-app light>
+    <v-toolbar class=" white">
+      <v-toolbar-title
+
+       v-text="title"></v-toolbar-title>
+    </v-toolbar>
+    <v-content>
+
+
+      <template>
+  <v-timeline>
+    <v-timeline-item
+      v-for="n in 4"
+      :key="n"
+      color="red lighten-2"
+      large
+    >
+      <template v-slot:opposite>
+        <span>Tus eu perfecto</span>
+      </template>
+      <v-card class="elevation-2">
+        <v-card-title class="headline">Lorem ipsum</v-card-title>
+        <v-card-text>
+          Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
+
+          <v-btn color="info">More</v-btn>
+        </v-card-text>
+      </v-card>
+    </v-timeline-item>
+  </v-timeline>
+</template>
+
+
+
+
+
+      <v-footer class="blue darken-2">
+        <v-layout row wrap align-center>
+          <v-flex xs12>
+            <div class="white--text ml-3">
+              copyright
+              <v-icon class="red--text">favorite</v-icon>
+              by <a class="white--text" href="https://vuetifyjs.com" target="_blank">deepak</a>
+              and <a class="white--text" href="https://github.com/vwxyzjn"> team</a>
+            </div>
+          </v-flex>
+        </v-layout>
+      </v-footer>
+    </v-content>
+  </v-app>
+ </div>
+ <script src="https://unpkg.com/vue/dist/vue.js"></script>
+ <script src="https://unpkg.com/vuetify/dist/vuetify.js"></script>
+ <script>
+   new Vue({
+    el: '#app',
+    data () {
+      return {
+        title: 'Comming Together is a beginning >> Keeping Together is a Progress >> Worling Together is a Success '
+      }
+    }
+  })
+ </script>
+</body>
+</html>

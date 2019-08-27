@@ -1,0 +1,33 @@
+.g{
+    color: green;
+    align-content:center;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+
+
+}
+.text1{
+    color: black !important;
+    font-family: cursive !important;
+}
+.text2{
+    color: red !important;
+    font-family: 'Satisfy' !important;
+}
+.btn{
+    border-radius: 30px;
+    color: black !important;
+}
+.myimg{
+    height: 140px;
+    width: 270px;
+    border-radius: 10px;
+
+}
+.mytitle{
+    color: blue;
+    font-family: 'Satisfy' !important;
+
+
+
+}
